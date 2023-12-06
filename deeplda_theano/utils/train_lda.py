@@ -107,8 +107,7 @@ class LDA(object):
         self.verbose = verbose
         self.show = show
 
-    # @author sarah
-    # @date 18-10-22
+
     def fit_from_file(self, dump_file='./model_params/lda_obj_vals.pkl'):
         print("\nLoading lda values from:")
         print(" (%s)" % dump_file)
