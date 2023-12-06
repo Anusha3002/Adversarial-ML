@@ -169,9 +169,6 @@ if __name__ == '__main__':
 
         plt.show(block=True)
 
-    # @author shamoyeeta
-    # @date 29-10-22
-    # --------------------
     # Predict using model
     # --------------------
     if args.predict:
