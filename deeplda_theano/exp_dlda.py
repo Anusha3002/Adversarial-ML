@@ -242,9 +242,7 @@ if __name__ == '__main__':
         print('Finding most appropriate class labels - ',y_pr)
         print("LDA Accuracy on set: %.3f" % (100 * accuracy_score(labels, y_pr)))
 
-    # @author shamoyeeta
-    # @date 21-11-22
-    # -------------------
+
     # Train on LDA model
     # --------------------
     if args.adv_sample:
